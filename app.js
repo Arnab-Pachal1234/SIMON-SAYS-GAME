@@ -8,6 +8,7 @@
 // let audio=document.querySelector("audio");
 
 document.addEventListener("keydown",function(){
+    secret_key = "12345";
     if(started==false){started=true;
     console.log("game is started");}
     levelUp();
