@@ -1,13 +1,14 @@
 
-let gameseq=[];
-let userseq=[];
-let level =0;
-let started =false;
-let btns=["blue","green","yellow","violet"];
-let score =0;
-let audio=document.querySelector("audio");
+// let gameseq=[];
+// let userseq=[];
+// let level =0;
+// let started =false;
+// let btns=["blue","green","yellow","violet"];
+// let score =0;
+// let audio=document.querySelector("audio");
 
 document.addEventListener("keydown",function(){
+    secret_key = "12345";
     if(started==false){started=true;
     console.log("game is started");}
     levelUp();
